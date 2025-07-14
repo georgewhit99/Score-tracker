@@ -18,8 +18,8 @@
         document.getElementById('score').innerText = data.score;
       });
 
-    const pusher = new Pusher('YOUR_PUSHER_KEY', {
-      cluster: 'YOUR_PUSHER_CLUSTER'
+    const pusher = new Pusher('34c3cbec9bc210bcb8c0', {
+      cluster: 'eu'
     });
 
     const channel = pusher.subscribe('score-channel');
